@@ -1,4 +1,4 @@
-Write Your CSS Below 
+/* Write Your CSS Below 
 
 Colors: 
 - rgb(243, 183, 106)
@@ -25,4 +25,70 @@ Font:
 Images: 
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
+ */
 
+
+ body{
+     background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+     background-size: 100%;
+ }
+
+ #title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 80px; 
+    color: blue; 
+    text-align: center;
+    background: linear-gradient(lightblue,red);
+    border-radius: 15px;
+    text-shadow: 5px 5px 5px yellow;
+    text-decoration: underline;
+ }
+
+ .title{
+     display: flex;
+     justify-content: center;
+ }
+
+ #row1-section1{
+     margin-left: 350px;
+ }
+
+ #jordans-1{
+     border-right: 5px solid blue;
+     border-bottom: 2px solid blue;
+ }
+
+ #jordans-1-desc{
+     border: 2px solid red;
+     border-radius: 5px;
+     width: 600px;
+     height: 145px;
+     background-color: rgb(25, 141, 141);
+     color: white; 
+     font-size: 25px;
+     margin-left: 350px;
+ }
+
+#row2-section1{
+    margin-left: 700px;
+}
+
+#row2-section2{
+    margin-left: 700px;
+}
+
+#jordans-2{
+    border-left: 5px solid red; 
+    border-top: 2px solid red;
+}
+#jordans-2-desc{
+    width: 600px;
+    height: 145px;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+}
